@@ -85,6 +85,29 @@ python partie3_avancees.py
 python partie4_geospatial.py
 ```
 
+### Option C: Interface Web Dashboard 🌐
+```powershell
+# Ouvrir le dashboard dans le navigateur
+cd web
+start index.html
+```
+
+**Ou simplement** : Double-cliquez sur `web/index.html`
+
+**Ce que vous verrez** :
+- 📊 **Statistiques animées** : Commandes, livreurs, revenus
+- 📦 **Liste temps réel** : Commandes avec statuts colorés
+- 👥 **Top livreurs** : Classement avec ratings
+- 🗺️ **Carte** : Visualisation géographique
+- ✨ **Mises à jour automatiques** : Toutes les 5 secondes
+
+**Interactions disponibles** :
+- 🔄 Bouton refresh pour nouvelles commandes
+- ➕ Bouton flottant pour créer une commande
+- 🖱️ Clic sur commande pour détails
+
+**Durée** : Exploration libre, interface toujours active
+
 ---
 
 ## 📊 Ce que fait chaque partie
@@ -262,8 +285,14 @@ Avant de rendre le projet, vérifiez:
 ✅ partie3_avancees.py
 ✅ partie4_geospatial.py
 ✅ main_demo.py
+✅ test_projet.py
+✅ rapport_projet.tex
+✅ web/index.html
+✅ web/style.css
+✅ web/app.js
 ✅ README.md
 ✅ DOCUMENTATION.md
+✅ GUIDE_DEMARRAGE.md
 ```
 
 ---
@@ -272,9 +301,15 @@ Avant de rendre le projet, vérifiez:
 
 ### Pour une démonstration rapide
 ```powershell
+# Option 1: Scripts Python
 python main_demo.py
 # Puis choisir: 5 (Exécuter tout)
 # Appuyez sur Entrée à chaque pause
+
+# Option 2: Interface Web
+cd web
+start index.html
+# Interface interactive immédiate !
 ```
 
 ### Pour explorer Redis manuellement
@@ -304,7 +339,13 @@ pip install -r requirements.txt
 # 2. Lancer
 docker-compose up -d
 
-# 3. Exécuter
+# 3. Exécuter (choisissez votre option)
+
+# Option A: Scripts Python
 python main_demo.py
+
+# Option B: Interface Web
+cd web
+start index.html
 ```
 
