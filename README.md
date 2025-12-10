@@ -136,6 +136,4 @@ Pour plus de détails sur l'implémentation, les choix techniques et les résult
 - La mise en route est documentée étape par étape
 - Tous les travaux demandés sont implémentés avec des bonus
 
-## 👥 Auteur
 
-Projet réalisé dans le cadre du cours NoSQL.
