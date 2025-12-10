@@ -46,6 +46,20 @@ python partie3_avancees.py
 python partie4_geospatial.py
 ```
 
+**Option 3: Interface Web Dashboard 🌐**
+```bash
+# Ouvrir l'interface web dans le navigateur
+cd web
+start index.html
+```
+
+Ou double-cliquez sur `web/index.html` pour lancer le dashboard interactif avec :
+- 📊 Statistiques en temps réel
+- 📦 Liste des commandes avec statuts
+- 👥 Classement des meilleurs livreurs
+- 🗺️ Visualisation géographique
+- ✨ Animations et mises à jour automatiques
+
 ## 📁 Structure du Projet
 
 ```
@@ -60,7 +74,14 @@ NoSQL/
 ├── partie3_avancees.py          # Partie 3: Avancé
 ├── partie4_geospatial.py        # Partie 4: Geo-spatial
 ├── main_demo.py                 # Script principal
+├── test_projet.py               # Tests automatisés
+├── rapport_projet.tex           # Rapport LaTeX
+├── web/                         # Interface web
+│   ├── index.html              # Dashboard HTML
+│   ├── style.css               # Styles modernes
+│   └── app.js                  # Logique interactive
 ├── DOCUMENTATION.md             # Documentation complète
+├── GUIDE_DEMARRAGE.md          # Guide d'installation
 └── README.md                    # Ce fichier
 ```
 
