@@ -308,4 +308,3 @@ docker-compose up -d
 python main_demo.py
 ```
 
-**Bon projet! 🚀**
